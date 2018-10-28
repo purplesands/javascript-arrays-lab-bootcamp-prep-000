@@ -10,6 +10,6 @@ var destructivelyPrependKitten = (name) => {
   return window.kittens.unshift(name)
 }
 
-var destructivelyRemoveLastKitten() => {
+var destructivelyRemoveLastKitten = () => {
   return window.kittens.slice(kittens.length)
 }
