@@ -11,5 +11,5 @@ var destructivelyPrependKitten = (name) => {
 }
 
 var destructivelyRemoveLastKitten = () => {
-  return window.kittens.slice(kittens.length)
+  return window.kittens.slice(kittens.length - 1)
 }
