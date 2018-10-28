@@ -4,6 +4,6 @@ var kittenString
 // Add your functions and code here
 
 function destructivelyAppendKitten(kittens, kittenString){
-  kittens.unshift(kittenString)
+  kittens.push(kittenString)
   return kittens
 }
