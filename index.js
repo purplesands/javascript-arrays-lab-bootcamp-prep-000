@@ -5,3 +5,7 @@ var kittens = ['Milo', 'Otis', 'Garfield'] //define your array here
 var destructivelyAppendKitten = (name) => {
   return window.kittens.push(name)
 }
+
+var destructivelyPrependKitten = (name) => {
+  return window.kittens.unshift(name)
+}
