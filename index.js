@@ -32,5 +32,9 @@ var removeLastKitten = () => {
   return newArray
 }
 
+var removeFirstKitten = () => {
+  var newArray = window.kittens.slice(0)
+  return newArray
+}
 
 
