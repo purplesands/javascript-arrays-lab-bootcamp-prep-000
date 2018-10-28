@@ -18,3 +18,7 @@ var destructivelyRemoveFirstKitten = () => {
 }
 
 
+var appendKitten = (name) => {
+  return [...window.kittens, name]
+}
+
