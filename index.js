@@ -30,7 +30,7 @@ var prependKitten = (name) => {
 var removeLastKitten = () => {
   var newArray = window.kittens.slice(0, window.kittens.length -1)
   return newArray
-};
-
 }
+
+
 
