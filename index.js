@@ -16,3 +16,5 @@ var destructivelyRemoveLastKitten = () => {
 var destructivelyRemoveFirstKitten = () => {
   return window.kittens.shift()
 }
+
+
