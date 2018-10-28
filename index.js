@@ -22,3 +22,7 @@ var appendKitten = (name) => {
   return [...window.kittens, name]
 }
 
+var prependKitten = (name) => {
+  return [name, ...window.kittens]
+}
+
