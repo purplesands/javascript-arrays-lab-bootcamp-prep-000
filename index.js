@@ -26,3 +26,7 @@ var prependKitten = (name) => {
   return [name, ...window.kittens]
 }
 
+var removeLastKitten = () => {
+  
+}
+
