@@ -13,3 +13,6 @@ var destructivelyPrependKitten = (name) => {
 var destructivelyRemoveLastKitten = () => {
   return window.kittens.pop()
 }
+var destructivelyRemoveFirstKitten = () => {
+  return window.kittens.shift()
+}
